@@ -1,0 +1,142 @@
+
+main {
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  background-color: black;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(34,139,195);
+    background: linear-gradient(90deg, rgba(34,139,195,1) 0%, rgba(176,45,253,1) 100%);
+    box-shadow: 0 0.25em 4em white;
+}
+
+.nav-icon {
+    transform: scale(2);
+    margin-right: 15px;
+    color: white;
+}
+
+.nav-title {
+    color: white;
+}
+
+
+
+
+
+.cards-list {
+    display: flex;
+    flex-direction: column;
+    padding: 4em 3em;
+  }
+
+  .card {
+    color: var(--clr-text-main);
+    display: flex;
+    flex-direction: row;
+    padding: 2em 0;
+    width: fit-content;
+    margin-left: 2em;
+    border-image: linear-gradient(90deg, rgba(34,139,195,1) 0%, rgba(176,45,253,1) 100%) 1;
+    border-width: 10px;
+    border-style: double;
+    margin-block: 2em 2em;
+    background-color: rgb(50, 49, 49);
+  }
+  
+  .card-img {
+    height: 100%;
+    width: 23em;
+    aspect-ratio: 18 / 12;
+    object-fit: cover;
+    border-radius: 0.3em;
+    
+    transform: scale(1);
+    transition: all 850ms ease-in-out;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  .card-icon {
+    margin-right: 1em;
+    transform: scale(1.5);
+    color: var(--clr-accent);
+    color: white;
+  }
+
+  .card-location {
+    display: inline-block;
+    font-size: 1.25rem;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    margin: 0 1em 0 0.25em;
+    color: var(--clr-text-main);
+    color: white;
+  }
+
+  .card-location-url {
+    color: var(--clr-text-light);
+    font-size: 1.00rem;
+    text-decoration: underline;
+    color: rgb(150, 42, 227);
+  }
+
+  .card-title {
+    font-size: 2rem;
+    margin: 0.25em 0;
+    font-weight: 700;
+    margin-top: 1em;
+    color: white;
+  }
+  
+  .card-date {
+    margin-top: 2em;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .card-description {
+    max-width: 50rem;
+    margin-top: 1em;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 150%;
+    color: white;
+  }
+
+  .card-img:hover {
+  transform: scale(1.12);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+    0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),
+    0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);
+  /* filter: brightness(80%); */
+  }
+
+  .footer {
+    padding: 1.25em 2.25em;
+    justify-content: center;
+    text-align: center;
+    background: rgb(34,139,195);
+    background: linear-gradient(90deg, rgba(34,139,195,1) 0%, rgba(176,45,253,1) 100%);
+  }
+
+  small {
+    color: white;
+    font-size: 2em;
+  }
+  .footer-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+    color: inherit;
+  }
+
+  .footer-icon {
+    margin-left: 1em;
+    transform: scale(1.5);
+  }
